@@ -31,22 +31,22 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <h1 className="text-2xl font-bold mb-4">React Playground</h1>
+      <h1 className="text-2xl font-bold mb-4">Owen Imudia User Profile</h1>
 
       <nav className="mb-4">
         <Link href="/about">
-          <Button variant="outline">About</Button>
+          <Button variant="outline">About Owen Imudia</Button>
         </Link>
       </nav>
 
       <Card className="w-full max-w-md mb-4">
         <CardHeader>
           <CardTitle>Profile</CardTitle>
-          <CardDescription>Display user profile information.</CardDescription>
+          <CardDescription>This is My Information.</CardDescription>
         </CardHeader>
         <CardContent>
           <Profile
-            name="John Doe"
+            name="Owen Imudia"
             profilePicture="https://picsum.photos/100/100"
             bio="A passionate developer."
           />
@@ -66,7 +66,7 @@ export default function Home() {
       <Card className="w-full max-w-md mb-4">
         <CardHeader>
           <CardTitle>To-Do List</CardTitle>
-          <CardDescription>Add and remove items dynamically.</CardDescription>
+          <CardDescription>Add and remove items.</CardDescription>
         </CardHeader>
         <CardContent>
           <TodoList />

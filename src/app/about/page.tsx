@@ -9,11 +9,11 @@ export default function About() {
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle>About</CardTitle>
-          <CardDescription>Learn more about this application.</CardDescription>
+          <CardDescription>Learn more about my Profile.</CardDescription>
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            This is a simple React playground application built with Next.js and Firebase Studio.
+            This is a simple User Profile application built with Next.js.
           </p>
           <Link href="/">
             <Button>Go Home</Button>
